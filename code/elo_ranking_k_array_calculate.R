@@ -50,7 +50,6 @@ load(file = paste("./data/data_for_elo_rank_calculations_", current_date,".RData
 step1 <- step1 %>%  mutate(Wc = NA, Wn = NA, Lc = NA, Ln = NA)
 
 step2 <- step1 %>%
-  slice(1:10) %>% 
   mutate(Wk_value = set_Wk,
          Lk_value = set_Lk) %>% 
   mutate(scores =  
