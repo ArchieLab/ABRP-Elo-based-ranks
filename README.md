@@ -1,10 +1,14 @@
-# ABRP Elo-based ranks
+# Elo based ordinal dominance rank assignments for the ABRP projectElo-based ranks
 
-This is the code that can be used to calculate the elo scores and therafter ordional ranks based on elo scores for the ABRP project.
-Their are multiple scripts in the code folders. These are differt parts of the analysis.
+This is the code that can be used to calculate the elo scores and therafter assign monthly ordional ranks based on elo scores for the ABRP project.
+There are multiple scripts in the code folder. 
 
+elo_ranking_k_array_get_data   # This downloads the data needed from bababse\
+elo_ranking_k_array_prep_data  # This gets the data organized into data files that are used for the analysis\
+elo_ranking_k_array_functions  # THis creates all the functions that are used for the calculation\
+elo_ranking_k_array_calculate  # This does the actual calculations. \
 
-For more details see here.
+For more details see the headers of the scrips.
 
 For questions regarding code contact [David Jansen](david.awam.jansen@gmail.com).
 
